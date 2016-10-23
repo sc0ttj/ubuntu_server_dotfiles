@@ -1,0 +1,16 @@
+F1 = OPEN_SCREEN
+
+Control+t = OPEN_PTY
+
+Control+Tab = NEXT_PTY
+
+Control+v = INSERT_SELECTION
+
+Shift+Prior = PAGE_UP
+
+Shift+Next = PAGE_DOWN
+
+Control+m = "menu:mlterm-menu"
+
+Control+n = "mlterm:mlconfig"
+

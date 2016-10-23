@@ -1,0 +1,47 @@
+# Colour settings (http://www.qnd-guides.net/qnd-mlterm.html#config_colour)
+fg_color = white
+bg_color = black
+
+# Decoration settings (http://www.qnd-guides.net/qnd-mlterm.html#config_decor)
+scrollbar_mode = none
+borderless = false
+
+# Geometry settings (http://www.qnd-guides.net/qnd-mlterm.html#config_geom)
+fontsize = 14
+geometry = 120x45
+use_anti_alias = false
+
+# Bell settings (http://www.qnd-guides.net/qnd-mlterm.html#config_bell)
+bel_mode = visual
+
+# Scrollback settings (http://www.qnd-guides.net/qnd-mlterm.html#config_buf)
+logsize = 4096
+
+# Terminal settings (http://www.qnd-guides.net/qnd-mlterm.html#config_name)
+name = xterm
+
+# Selection settings (http://www.qnd-guides.net/qnd-mlterm.html#config_sel)
+word_separators = " ,;="
+
+ptys = 0
+
+inner_border = 0
+
+fade_ratio = 30
+
+brightness = 100
+
+use_transbg = false
+
+line_space = 1
+
+bdfont = false
+
+itfont = false
+
+encoding = auto
+
+use_combine = false
+
+tabsize=4
+
