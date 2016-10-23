@@ -1,5 +1,0 @@
-open_with vim
-delete 
-copy bashrc.bkp
-rename
-rename .bashrc.bkp
