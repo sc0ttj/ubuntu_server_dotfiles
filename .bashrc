@@ -164,10 +164,11 @@ function _git_prompt() {
 
     local git_status="`git status -unormal 2>&1`"
     local END_COLOR='\e[0m'
-    local color_clean="\[\033[38;5;75m\]"
+    local color_clean="\[\033[38;5;112m\]"
     local color_untracked="\[\033[38;5;196m\]"
-    local color_not_staged="\[\033[38;5;190m\]"
-    local color_files_to_commit="\[\033[38;5;70m\]"
+    local color_files_to_commit="\[\033[38;5;213m\]"
+    local color_not_staged="\[\033[38;5;160m\]"
+    local color_files_to_push="\[\033[38;5;75m\]"
 
     if ! [[ "$git_status" =~ Not\ a\ git\ repo ]]; then
         if [[ "$git_status" =~ nothing\ to\ commit ]]; then
@@ -176,12 +177,15 @@ function _git_prompt() {
         elif [[ "$git_status" =~ nothing\ added\ to\ commit\ but\ untracked\ files\ present ]]; then
             local ansi=$color_untracked
             local branch_status='±'
+        elif [[ "$git_status" =~ Changes\ to\ be\ committed ]]; then
+            local ansi=$color_files_to_commit
+            local branch_status='~'
         elif [[ "$git_status" =~ Changes\ not\ staged\ for\ commit ]]; then
             local ansi=$color_not_staged
-            local branch_status='◊'
+            local branch_status='!'
         else
             local ansi=$color_files_to_commit
-            local branch_status='‡'
+            local branch_status='^'
         fi
         if [[ "$git_status" =~ On\ branch\ ([^[:space:]]+) ]]; then
             branch=${BASH_REMATCH[1]}

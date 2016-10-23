@@ -2,3 +2,7 @@
 *.bkp
 *.netrwhist
 .mlterm/challege
+.config/ranger/bookmarks
+.config/ranger/history
+.bash_history
+.bash_logout
