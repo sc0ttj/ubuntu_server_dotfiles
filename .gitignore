@@ -1,7 +1,8 @@
+.cache/*
 *.log
 *.bkp
 *.netrwhist
-.mlterm/challege
+.mlterm/challenge
 .config/ranger/bookmarks
 .config/ranger/history
 .bash_history
@@ -9,7 +10,7 @@
 .gitconfig
 *.swp
 .config/htop/*
-.mlterm/challenge
 .ssh/*
 .viminfo
 .w3m/*
+
