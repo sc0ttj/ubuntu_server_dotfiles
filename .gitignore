@@ -9,3 +9,4 @@
 .gitconfig
 *.swp
 .config/htop/*
+.mlterm/challenge
