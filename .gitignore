@@ -10,3 +10,6 @@
 *.swp
 .config/htop/*
 .mlterm/challenge
+.ssh/*
+.viminfo
+.w3m/*
