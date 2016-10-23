@@ -165,7 +165,7 @@ function _git_prompt() {
     local git_status="`git status -unormal 2>&1`"
     local END_COLOR='\e[0m'
     local color_clean="\[\033[38;5;112m\]"
-    local color_untracked="\[\033[38;5;196m\]"
+    local color_untracked="\[\033[38;5;34m\]"
     local color_files_to_commit="\[\033[38;5;213m\]"
     local color_not_staged="\[\033[38;5;160m\]"
     local color_files_to_push="\[\033[38;5;75m\]"
