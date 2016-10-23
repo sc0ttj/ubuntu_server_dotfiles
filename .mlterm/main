@@ -12,7 +12,7 @@ geometry = 120x45
 use_anti_alias = false
 
 # Bell settings (http://www.qnd-guides.net/qnd-mlterm.html#config_bell)
-bel_mode = visual
+bel_mode = none
 
 # Scrollback settings (http://www.qnd-guides.net/qnd-mlterm.html#config_buf)
 logsize = 4096
